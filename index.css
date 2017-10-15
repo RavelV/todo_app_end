@@ -2,11 +2,15 @@ html {
     font-family: 'Gloria Hallelujah', cursive;
 }
 h1 {
-    color: #dda6be;
+    color: #87232f;
+    height:20px;
+}
+h2 {
+    color: #87232f;
 }
 .pomodoro-estimate{
     font-weight: bold;
-    color:#dda6be;
+    color: #87232f;
     background-color: #F5F5F5;
     border-radius: 50px;
     font-size: 14px;
@@ -21,10 +25,17 @@ h1 {
     border-radius: 3px;
     box-shadow: 2px 2px 1px #90A4AE;
     display: block;
-    background-color: #f997a5;
+    background-color: #87232f;
     margin-top: 10px;
 }
 #add-new-todo-button:hover {
-    background-color: #97caf9;
+    background-color: #241512;
     cursor: pointer;
+}
+li:hover {
+    background-color: #97caf9;
+}
+.completed-todo{
+    text-decoration: line-through;
+}
 }
