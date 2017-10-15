@@ -38,4 +38,8 @@ li:hover {
 .completed-todo{
     text-decoration: line-through;
 }
+a{
+    color: black;
+    text-decoration: none;
+}
 }
