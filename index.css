@@ -2,8 +2,29 @@ html {
     font-family: 'Gloria Hallelujah', cursive;
 }
 h1 {
-    color: red;
+    color: #dda6be;
 }
 .pomodoro-estimate{
-    font-weight: bold
+    font-weight: bold;
+    color:#dda6be;
+    background-color: #F5F5F5;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 5px 10px 5px 10x;
+}
+#add-new-todo-button {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    outline: none;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px #90A4AE;
+    display: block;
+    background-color: #f997a5;
+    margin-top: 10px;
+}
+#add-new-todo-button:hover {
+    background-color: #97caf9;
+    cursor: pointer;
 }
