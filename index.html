@@ -18,9 +18,19 @@
             <li><input type="checkbox"> <a href="show.html">Send workshop location to all students</a> <span class="pomodoro-estimate">1 Pomodoro</span></li>
             <li><input type="checkbox"> <a href="show.html">Have a great workshop</a> <span class="pomodoro-estimate">0 Pomodoros</span></li>
         </ul>
-        <input type="text" placeholder="Add a description...">
-        <input type="number" placeholder="Estimated Pomodoros...">
-        <input id="add-new-todo-button" type="submit" value="Add ToDo">
-        
+        <div>
+            <input type="text" placeholder="Add a description...">
+            <input type="number" placeholder="Estimated Pomodoros...">
+            <input id="add-new-todo-button" type="submit" value="Add ToDo">
+        </div>
+        <script>
+            $(document).ready(function() {
+                
+    //Strike through todo when its checkbox is clicked
+    $("ul").on("click", "input[type=checkbox]", function(){
+        $(this).closest("li").toggleClass("completed-todo")
+    })
+})
+        </script>
     </body>
  </html>
